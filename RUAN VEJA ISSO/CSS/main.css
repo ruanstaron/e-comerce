@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Lato');
 
+
+/* css incrementado*/
 body {
   color: #333333;
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
@@ -84,10 +86,7 @@ body {
     background-color: #5F9EA0;
 }
 
-
-
-/*A partir desta parte eh o css do bootstrap*/
-
+/* a partir daqui é o bootstrap*/
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6711,7 +6710,7 @@ body {
 }
 .section-danger {
   /*background-color: #d9534f !important;*/
-    background-color: #d9537f!important;
+    background-color: #00060F !important;
   color: #ffffff;
 }
 .cover {
