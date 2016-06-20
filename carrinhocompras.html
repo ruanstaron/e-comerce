@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html>
-  
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
-    rel="stylesheet" type="text/css">
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css\style.css" rel="stylesheet" type="text/css">
+
   </head>
   
   <body>
@@ -23,57 +22,66 @@
                 <nav id="menu-opcoes">
                     <ul>
                         <li><a href="index.html">Home</a></li>
-                        <li><a href="carrinhocompras.html">Sua Conta</a></li>
                         <li><a href="#">Lista de Desejos</a></li>
                         <li><a href="#">Cartão Fidelidade</a></li>
-                        <li><a href="#">Sobre</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                        <li><a href="faleconosco.html">Fale Conosco</a></li>
                     </ul>
                 </nav>
       </div>
     </header>
     <content>
-      <div class="section">
-        <div class="container">
+        <div class="section">
           <div class="row">
             <div class="col-md-2">
-              <img src="img\pub_fc.png" class="img-responsive">
+              <img src="img\pub_cc.png" class="img-responsive">
             </div>
             <div class="col-md-10">
-              <h1>Fale Conosco</h1>
-              <label>Nome*
-                <input type="text" name="nome" placeholder="Digite seu nome" required>
-              </label>
-              <br>
-              <br>
-              <label>E-mail*
-                <input type="email" name="email" placeholder="Digite seu email" required>
-              </label>
-              <br>
-              <br>
-              <label>
-                <select name="opcao">
-                  <option value="sugestão">Sugestão</option>
-                  <option value="dúvida">Dúvida</option>
-                  <option value="reclamação">Reclamação</option>
-                </select>
-              </label>
-              <br>
-              <br>
-              <label>Mensagem*</label>
-              <br>
-              <textarea name="informacoes" cols="70" rows="20" placeholder="Digite sua mensagem aqui" required></textarea>
-              <br>
-              <label>Campos com * são obrigatórios</label>
-              <br>
-              <button type="submit" class="btn btn-danger">Enviar</button>
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th></th>
+                    <th>Produto</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                    <th>Total</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>
+                      <div>
+                        <img src="" class="img-responsive">
+                      </div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
+          </div>
+        </div>
+      <div class="section">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-3"></div>
+          <div class="col-md-3">
+            <a href="Main.html" class="btn btn-danger btn-lg">Continuar comprando</a>
+          </div>
+          <div class="col-md-3">
+            <a href="CarrinhoCompraVerificacao.html" class="btn btn-danger btn-lg">Finalizar compra</a>
           </div>
         </div>
       </div>
     </content>
 
-    <footer class="section section-danger">
-      <div class="rodape">
+      <footer class="section section-danger">
+            <div class="rodape">
               <div class="row">
                 <div class="col-sm-6">
                   <h1>Super Celulares</h1>
@@ -105,6 +113,7 @@
                 </div>
               </div>
             </div>
-    </footer>
+      </footer>
+          
   </body>
 </html>
