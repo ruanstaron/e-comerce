@@ -1,0 +1,34 @@
+== changelog ==
+
+= 1.8.1 =
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+
+= 1.8 =
+- Color "Sticky"
+- word-break: break-all
+
+
+= 1.7.8 =
+- add Armenian, Ukrainian
+
+= 1.7.7 =
+- add Screen-reader text
+
+= 1.7.6 =
+- add Albanian, Basque, Bosnian, Catalan, Chinese (China), Chinese (Taiwan), Croatian, Czech, Danish, Dutch, Estonian, Finnish, French, Galician, German, Greek, Hazaragi, Hebrew, Hungarian, Icelandic, Indonesian, Italian, Japanese, Korean, Latvian, Lithuanian, Macedonian, Myanmar, Norwegian, Occitan, Pashto, Persian, Polish, Portuguese, Romana, Romanian, Russian, Scottish Gaelic, Serbian, Slovak, Slovenian, Spanish, Spanish (Mexico), Spanish (Peru), Swedish, Switzerland, Tagalog, Thai, Turkish, Uighur, Vietnamese, Welsh
+
+= 1.7.5 =
+- add Bengali
+
+= 1.7.4 =
+- add Azerbaijani
+
+= 1.7.3 =
+- bug fix
+
+= 1.7.2 =
+- add Arabic, Bulgarian
+
+= 1.7 = 
+- WordPress 4.2 ready

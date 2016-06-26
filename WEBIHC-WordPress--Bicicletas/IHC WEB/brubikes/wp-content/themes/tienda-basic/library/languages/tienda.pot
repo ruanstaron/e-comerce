@@ -1,0 +1,746 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tienda Basic\n"
+"POT-Creation-Date: 2015-06-05 10:11-0500\n"
+"PO-Revision-Date: 2015-06-05 10:11-0500\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:18
+msgid "It looks like nothing was found at this location. Perhaps try a search?"
+msgstr ""
+
+#: archive.php:29
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: archive.php:31
+#, php-format
+msgid "Tag Archive for %s"
+msgstr ""
+
+#: archive.php:33
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: archive.php:35
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: archive.php:35
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:37
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: archive.php:37
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:39
+msgid "Blog Archives"
+msgstr ""
+
+#: comments.php:28
+#, php-format
+msgid "1 comment for &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s comments for &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:40
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:41
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr ""
+
+#: content-aside.php:12 content-audio.php:12 content-gallery.php:12
+#: content-image.php:16 content-link.php:12 content-page.php:23
+#: content-quote.php:12 content-status.php:19 content-video.php:12
+#: content.php:44 functions.php:307
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-footer.php:11 image.php:50
+msgid "Pages:"
+msgstr ""
+
+#: content-footer.php:12
+msgid "Tags:"
+msgstr ""
+
+#: content-footer.php:13 functions.php:262 image.php:51
+msgid "Edit"
+msgstr ""
+
+#: content-header.php:27 content.php:21
+msgid "0 Comments"
+msgstr ""
+
+#: content-header.php:27 content.php:21
+msgid "1 Comment"
+msgstr ""
+
+#: content-header.php:27 content.php:21
+msgid "% Comments"
+msgstr ""
+
+#: content-header.php:32 content.php:35
+#, php-format
+msgid "by %s on %s"
+msgstr ""
+
+#: content-header.php:33 content.php:36
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: content-none.php:9
+msgid "Nothing found"
+msgstr ""
+
+#: content-none.php:14
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-none.php:18
+msgid ""
+"Sorry, but no posts matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:23
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-status.php:16
+#, php-format
+msgid "Posted on %1$s at %2$s"
+msgstr ""
+
+#: content.php:18
+msgid "Posted in "
+msgstr ""
+
+#: footer.php:16
+#, php-format
+msgid "Copyright &copy; %s %s. All Rights Reserved."
+msgstr ""
+
+#: footer.php:18
+#, php-format
+msgid "The %s Theme by %s."
+msgstr ""
+
+#: front-page.php:38
+msgid "Nothing Found"
+msgstr ""
+
+#: front-page.php:41
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: functions.php:66
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:67
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:176
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:178
+msgid "This is the regular sidebar."
+msgstr ""
+
+#: functions.php:186 library/about.php:159
+msgid "Jumbo Headline"
+msgstr ""
+
+#: functions.php:188
+msgid ""
+"Area on the home page below the header. Designed specifically for one Text "
+"widget. "
+msgstr ""
+
+#: functions.php:214 functions.php:547
+msgid "Posts navigation"
+msgstr ""
+
+#: functions.php:216
+msgid "&larr; Older posts"
+msgstr ""
+
+#: functions.php:220
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: functions.php:261
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:266
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:285
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:285
+msgid "(edit)"
+msgstr ""
+
+#: functions.php:512
+#, php-format
+msgid ""
+"<span class=\"pull-left\">%1$s</span><span class=\"displaying pull-right\">"
+"%2$s of %3$s results for \"%4$s\"</span>"
+msgstr ""
+
+#: functions.php:536
+msgid "All results &rarr;"
+msgstr ""
+
+#: functions.php:536
+#, php-format
+msgid "Next %s results &rarr;"
+msgstr ""
+
+#: functions.php:542
+#, php-format
+msgid "&larr; Previous %s results"
+msgstr ""
+
+#: functions.php:685
+msgid "View your shopping cart"
+msgstr ""
+
+#: functions.php:686
+#, php-format
+msgid "%d Item"
+msgid_plural "%d Items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:715
+msgid "Proceed to Checkout"
+msgstr ""
+
+#: functions.php:728
+msgid "Place order"
+msgstr ""
+
+#: functions.php:807
+msgid "Already in cart"
+msgstr ""
+
+#: functions.php:810
+msgid "Add to cart"
+msgstr ""
+
+#: header.php:49
+msgid "Cart"
+msgstr ""
+
+#: header.php:61
+msgid "Main menu"
+msgstr ""
+
+#: header.php:62
+msgid "Skip to content"
+msgstr ""
+
+#: image.php:57 single.php:17
+msgid "Post navigation"
+msgstr ""
+
+#: image.php:58
+msgid "<span class=\"meta-nav\">&larr;</span> Previous Image"
+msgstr ""
+
+#: image.php:59
+msgid "Next Image <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: library/about.php:26
+#, php-format
+msgid ""
+"Thanks for choosing %s! You can learn how to use the available theme options "
+"on the %sabout page%s."
+msgstr ""
+
+#: library/about.php:28
+#, php-format
+msgid "Learn more about %s"
+msgstr ""
+
+#: library/about.php:41 library/preview-pro.php:18 library/preview-pro.php:76
+#, php-format
+msgid "Welcome to %s %s"
+msgstr ""
+
+#: library/about.php:41
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: library/about.php:99
+#, php-format
+msgid ""
+"Read through the following documentation to learn more about <em>%s</em> and "
+"how to use the available theme options."
+msgstr ""
+
+#: library/about.php:107 library/preview-pro.php:86
+msgid "Documentation"
+msgstr ""
+
+#: library/about.php:108 library/preview-pro.php:87
+msgid "Upgrade"
+msgstr ""
+
+#: library/about.php:112
+msgid "WooCommerce"
+msgstr ""
+
+#: library/about.php:118
+#, php-format
+msgid ""
+"%s can be used for a straightforward site, but is specifically built as an "
+"online storefront for the WooCommerce plugin. Once WooCommerce is installed "
+"and activated, many of the theme&rsquo;s features will automatically turn on."
+msgstr ""
+
+#: library/about.php:120
+#, php-format
+msgid "Read more about WooCommerce in their %sdocumentation section%s."
+msgstr ""
+
+#: library/about.php:125
+msgid "The Customizer"
+msgstr ""
+
+#: library/about.php:131
+#, php-format
+msgid ""
+"All theme options for <em>%s</em> are controlled under %sAppearance &rarr; "
+"Customize%s. From there, you can modify layout, colors, custom menus, and "
+"more."
+msgstr ""
+
+#: library/about.php:133
+msgid "Site &amp; Main Content Width"
+msgstr ""
+
+#: library/about.php:135
+msgid ""
+"There are two width options for your site: 1200px &amp; 992px. You can "
+"select the width of your main content, based on a 12 column grid. Resizing "
+"your main content will also resize your sidebar."
+msgstr ""
+
+#: library/about.php:137 library/customizer.php:140
+msgid "Sidebar Layout"
+msgstr ""
+
+#: library/about.php:139
+#, php-format
+msgid ""
+"With the sidebar layout option, you can decide whether to display your "
+"sidebar(s) on the left or right of your main content. Customize your sidebar "
+"on %sAppearance &rarr; Widgets%s."
+msgstr ""
+
+#: library/about.php:144
+msgid "Custom Menus"
+msgstr ""
+
+#: library/about.php:146
+#, php-format
+msgid ""
+"<em>%s</em> includes two Custom Menu locations: the Primary menu and the Top "
+"menu"
+msgstr ""
+
+#: library/about.php:148
+#, php-format
+msgid ""
+"To add a navigation menu to the header, go to %sAppearance &rarr; Menus%s. "
+"By default, a list of categories will appear in this location if no custom "
+"menu is set."
+msgstr ""
+
+#: library/about.php:150
+msgid ""
+"Clicking on a top-level link in the primary navigation will open up the "
+"first dropdown list of sub-menu links."
+msgstr ""
+
+#: library/about.php:152
+msgid "Shopping Cart"
+msgstr ""
+
+#: library/about.php:154
+msgid ""
+"The shopping cart link in the Top menu will appear automatically once the "
+"WooCommerce plugin is installed and activated."
+msgstr ""
+
+#: library/about.php:165
+#, php-format
+msgid ""
+"The Jumbo Headline is a widgetized area on the home page designed for a Text "
+"widget. It appears over the header image. Go to %sAppearance &rarr; Widgets"
+"%s to add the widget and customize the text."
+msgstr ""
+
+#: library/about.php:170
+msgid "Jetpack"
+msgstr ""
+
+#: library/about.php:176
+msgid "Tiled Galleries"
+msgstr ""
+
+#: library/about.php:178
+#, php-format
+msgid ""
+"%sJetpack&rsquo;s Tiled Galleries%s will display your images in a beautiful "
+"mosaic layout. Go to %sJetpack &rarr; Settings%s to turn it on. "
+msgstr ""
+
+#: library/about.php:180
+msgid "Carousel"
+msgstr ""
+
+#: library/about.php:182
+#, php-format
+msgid ""
+"With %sJetpack&rsquo;s Carousel%s, clicking on one of your gallery images "
+"will open up a featured lightbox slideshow. Turn it on by going to %sJetpack "
+"&rarr; Settings%s. "
+msgstr ""
+
+#: library/about.php:187
+msgid "Pull Quotes"
+msgstr ""
+
+#: library/about.php:193
+msgid ""
+"You can easily include a pull quote within your text by using the following "
+"code within the Text/HTML editor:"
+msgstr ""
+
+#: library/about.php:195
+msgid ""
+"&lt;blockquote class=\"pullquote\"&gt;This is a pull quote that will appear "
+"within your text.&lt;/blockquote&gt;"
+msgstr ""
+
+#: library/about.php:196
+msgid "You can also align it to the right with this code:"
+msgstr ""
+
+#: library/about.php:198
+msgid ""
+"&lt;blockquote class=\"pullquote alignright\"&gt;This is a pull quote that "
+"will appear within your text.&lt;/blockquote&gt;"
+msgstr ""
+
+#: library/about.php:202
+#, php-format
+msgid ""
+"For more information, check out the %sDocumentation &amp; FAQs%s section on "
+"my site."
+msgstr ""
+
+#: library/customizer.php:84
+msgid "Layout"
+msgstr ""
+
+#: library/customizer.php:94
+msgid "Site Width"
+msgstr ""
+
+#: library/customizer.php:99
+msgid "1200px"
+msgstr ""
+
+#: library/customizer.php:100
+msgid "992px"
+msgstr ""
+
+#: library/customizer.php:122
+msgid "Main Content Width"
+msgstr ""
+
+#: library/customizer.php:135
+msgid "Left"
+msgstr ""
+
+#: library/customizer.php:136
+msgid "Right"
+msgstr ""
+
+#: library/preview-pro.php:18
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: library/preview-pro.php:79
+#, php-format
+msgid ""
+"Take your site to the next level with the full version of <em>%s</em>. Check "
+"out some of the advanced features that&rsquo;ll give you more control over "
+"your site&rsquo;s layout and design."
+msgstr ""
+
+#: library/preview-pro.php:91
+msgid "Site Icon"
+msgstr ""
+
+#: library/preview-pro.php:97
+msgid ""
+"Use the Site Icon uploader to add an image next to your site title and "
+"tagline to distinguish your shop and get your branding out there."
+msgstr ""
+
+#: library/preview-pro.php:102
+msgid "Social Menu"
+msgstr ""
+
+#: library/preview-pro.php:108
+msgid ""
+"Establish your online presence by letting your visitors join your social "
+"network. Help them stay up to date on everything you&rsquo;re doing"
+msgstr ""
+
+#: library/preview-pro.php:109
+msgid ""
+"Easily add a social menu by creating links to the most popular social media "
+"websites."
+msgstr ""
+
+#: library/preview-pro.php:114
+msgid "Home Page Top Area"
+msgstr ""
+
+#: library/preview-pro.php:120
+msgid ""
+"It&rsquo;s easier to direct customers with a few more call-to-action boxes. "
+"With the Home Page Top Area and the custom Image &amp Text widget you can "
+"feature certain sections or let your customers know about a current sale."
+msgstr ""
+
+#: library/preview-pro.php:125
+msgid "Shop Grid Page Template"
+msgstr ""
+
+#: library/preview-pro.php:131
+msgid ""
+"If you want to add more dynamic flair to the home page, use the included "
+"Shop Grid page template. It&rsquo;s designed to display 3 featured products, "
+"4 recent products and 4 on-sale products."
+msgstr ""
+
+#: library/preview-pro.php:133
+msgid ""
+"There&rsquo;s even a custom Shop Grid sidebar that only appears on this page."
+msgstr ""
+
+#: library/preview-pro.php:138
+msgid "Advanced Color Picker"
+msgstr ""
+
+#: library/preview-pro.php:144
+#, php-format
+msgid ""
+"Sometimes the default colors just aren&rsquo;t working for you. In %s you "
+"can use the advanced color picker to make sure you get the exact colors you "
+"want."
+msgstr ""
+
+#: library/preview-pro.php:145
+msgid ""
+"Easily select one of the eight preset colors or dive even deeper into your "
+"customization by using a more specific hex code."
+msgstr ""
+
+#: library/preview-pro.php:150
+msgid "Google Fonts Manager"
+msgstr ""
+
+#: library/preview-pro.php:156
+msgid ""
+"Web-safe fonts are a thing of the past, so why not try to spice things up a "
+"bit?"
+msgstr ""
+
+#: library/preview-pro.php:157
+msgid ""
+"Choose from over 670 Google Fonts to improve your site&rsquo;s typeface "
+"readability and make things look even more amazing."
+msgstr ""
+
+#: library/preview-pro.php:162
+msgid "Extended Widgetized Footer"
+msgstr ""
+
+#: library/preview-pro.php:168
+msgid ""
+"If you need to include more widgets on your site, take advantage of the "
+"Extended Footer."
+msgstr ""
+
+#: library/preview-pro.php:169
+msgid ""
+"Use the Customizer to set the number of columns you want to appear. You can "
+"also customize your site&rsquo;s copyright notice."
+msgstr ""
+
+#: library/preview-pro.php:174
+msgid "Even More Theme Options"
+msgstr ""
+
+#: library/preview-pro.php:177
+msgid "Full Width Posts/Pages"
+msgstr ""
+
+#: library/preview-pro.php:178
+msgid ""
+"Each page/post has an option to remove both sidebars so you can use the full "
+"width of your site to display whatever you want."
+msgstr ""
+
+#: library/preview-pro.php:181
+msgid "Multiple Sidebars"
+msgstr ""
+
+#: library/preview-pro.php:182
+msgid ""
+"Easily customize pages with different widgets by using the new WooCommerce "
+"and Shop Grid sidebars."
+msgstr ""
+
+#: library/preview-pro.php:188
+msgid "Bootstrap Shortcodes"
+msgstr ""
+
+#: library/preview-pro.php:189
+#, php-format
+msgid ""
+"Shortcodes are awesome and easy to use. That&rsquo;s why %s comes with a "
+"bunch, like a slideshow carousel, alert boxes and more."
+msgstr ""
+
+#: library/preview-pro.php:192
+msgid "Import/Export Tool"
+msgstr ""
+
+#: library/preview-pro.php:193
+msgid ""
+"Once you&rsquo;ve set up your site exactly how you want, you can easily "
+"export the Theme Options and Custom CSS for safe keeping."
+msgstr ""
+
+#: library/preview-pro.php:199
+#, php-format
+msgid "Upgrade %s Now &rarr;"
+msgstr ""
+
+#: sidebar.php:14
+msgid "Default Widget"
+msgstr ""
+
+#: sidebar.php:15
+#, php-format
+msgid ""
+"This is just a default widget. It'll disappear as soon as you add your own "
+"widgets on the %sWidgets admin page%s."
+msgstr ""
+
+#: sidebar.php:17
+msgid "Below is an example of an unordered list."
+msgstr ""
+
+#: sidebar.php:19
+msgid "List item one"
+msgstr ""
+
+#: sidebar.php:20
+msgid "List item two"
+msgstr ""
+
+#: sidebar.php:21
+msgid "List item three"
+msgstr ""
+
+#: sidebar.php:22
+msgid "List item four"
+msgstr ""
+
+#: single.php:18
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: single.php:19
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Tienda Basic"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://themes.bavotasan.com/themes/tienda/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Tienda Basic is an online storefront theme built specifically for "
+"WooCommerce. Set up a modern and beautifully designed eCommerce shop that "
+"works perfectly on handheld devices and desktops alike. With tons of great "
+"features and layout possibilities, Tienda will impress every customer while "
+"providing a smooth shopping experience. Also compatible with bbPress, "
+"BuddyPress and WPML. Uses Google Fonts for improved typeface readability."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "c.bavota"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://bavotasan.com/"
+msgstr ""

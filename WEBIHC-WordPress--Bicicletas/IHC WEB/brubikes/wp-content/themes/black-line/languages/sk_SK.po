@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Black Line v1.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-11-17 16:25+0200\n"
+"PO-Revision-Date: 2015-09-01 08:50+0300\n"
+"Last-Translator: JustPX <mail@justpx.com>\n"
+"Language-Team: JustPX <mail@justpx.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: sk_SK\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:4
+msgid "Error 404 - Page Not Found"
+msgstr "404 - Stránka nenájdená"
+
+#: footer.php:29
+msgid "Powered by"
+msgstr "Využívame"
+
+#: footer.php:29
+msgid "Theme"
+msgstr "Téma"
+
+#: functions.php:15
+msgid "Navigation Menu"
+msgstr ""
+
+#: functions.php:80
+msgid "Page"
+msgstr "Stránka"
+
+#: functions.php:98
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d položky"
+msgstr[1] "%d položky"
+
+#: header.php:34
+msgid "Cart:"
+msgstr "Košík:"
+
+#: header.php:34
+msgid "View your shopping cart"
+msgstr "Zobraziť Košík"
+
+#: index.php:12
+msgid "Read more..."
+msgstr "Čítať viac..."
+
+#: index.php:14
+msgid "Categories:"
+msgstr "Kategórie:"
+
+#: index.php:24
+msgid "&laquo; Newer"
+msgstr "&laquo; Novšie články"
+
+#: index.php:25
+msgid "Older &raquo;"
+msgstr "Staršie články &raquo;"
+
+#: searchform.php:2
+msgid "Search"
+msgstr "Nájdi"
+
+#: search.php:19
+msgid "Not found."
+msgstr "Stránka nenájdená."
+
+#: single.php:10
+msgid "Categories: "
+msgstr "Kategórie: "
+
+#: single.php:11
+msgid "Previous post link"
+msgstr "Staršie články"
+
+#: single.php:12
+msgid "Next post link"
+msgstr "Novšie články"

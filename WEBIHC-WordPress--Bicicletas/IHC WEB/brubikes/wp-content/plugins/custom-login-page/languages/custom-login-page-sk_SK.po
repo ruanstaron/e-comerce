@@ -1,0 +1,1407 @@
+# Copyright (C) 2013 A5 Custom Login Page
+# This file is distributed under the same license as the A5 Custom Login Page package.
+msgid ""
+msgstr ""
+"Project-Id-Version: A5 Custom Login Page 1.7.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/custom-login-page\n"
+"POT-Creation-Date: 2014-10-25 13:05+0200\n"
+"PO-Revision-Date: 2014-10-25 13:06+0200\n"
+"Last-Translator: Waldemar Stoffel <stoffel@atelier-fuenf.de>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: sk_SK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-lib/A5_OptionPageClass.php:31
+msgid "Settings"
+msgstr "Nastavenia"
+
+#: class-lib/A5_OptionPageClass.php:145
+msgid "Click to toggle"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:76
+msgid ""
+"In these settings you will be guided step by step through the process of "
+"styling your login page. The basic options are very foolproof but also very "
+"limited."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:77
+msgid ""
+"If you are familiar with coding your own css, you can use only the css tab "
+"to write your entire style sheet there. Next to the input for the css, you "
+"find a help box with all the elements on the page that you can style."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:78
+msgid ""
+"There is also a priview. So, you just can play around a bit and after saving "
+"the settings see, how it looks. No need to have two browser windows open."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:82 class-lib/CLP_AdminClassWidget.php:80
+msgid "General"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:86
+#, php-format
+msgid ""
+"With the margin of the logo, you can position the logo more precisely. Give "
+"a CSS value here, i.e. %s to locate it 180 px left."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:87
+#, php-format
+msgid ""
+"With the padding of the logo, you can position the shadow more precisely. "
+"Give a CSS value here, i.e. %s to get rid of it completely."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:91 class-lib/CLP_AdminClass.php:1298
+#: class-lib/CLP_AdminClassWidget.php:1150
+msgid "Logo"
+msgstr "Logo"
+
+#: class-lib/CLP_AdminClass.php:112 class-lib/CLP_AdminClass.php:1433
+msgid "Logout Message"
+msgstr "Odhlásiť správu"
+
+#: class-lib/CLP_AdminClass.php:114 class-lib/CLP_AdminClass.php:1435
+msgid "Error Message"
+msgstr "Chybové hlásenie"
+
+#: class-lib/CLP_AdminClass.php:116 class-lib/CLP_AdminClassWidget.php:127
+msgid "Export Settings"
+msgstr "Export nastavení"
+
+#: class-lib/CLP_AdminClass.php:118 class-lib/CLP_AdminClassWidget.php:129
+msgid "Download a file with your settings"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:120 class-lib/CLP_AdminClassWidget.php:131
+msgid "Import Settings"
+msgstr ""
+"Po stiahnutí to, môžete (ale nemusíte) premenovať súbor na niečo "
+"zmysluplnejšie."
+
+#: class-lib/CLP_AdminClass.php:122 class-lib/CLP_AdminClassWidget.php:133
+msgid "This will overlay any existing setting, you already have."
+msgstr "Toto vloží existujúce nastavenie, už máte."
+
+#: class-lib/CLP_AdminClass.php:130
+msgid "Redirect per User Role"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:134
+msgid "Hide register and lost password links."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:136
+msgid "Hide back to blog link."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:140
+#, fuzzy
+msgid "Compress Style Sheet:"
+msgstr "Border Style"
+
+#: class-lib/CLP_AdminClass.php:140
+msgid "Click here to compress the style sheet."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:142
+msgid "Check, to write styles inline instead of to a virtual CSS file."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:144
+msgid ""
+"Give a value for the priority of the style inline (this can help with other "
+"plugins overriding our styles)."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:150 class-lib/CLP_AdminClass.php:220
+#: class-lib/CLP_AdminClass.php:268 class-lib/CLP_AdminClassWidget.php:141
+#: class-lib/CLP_AdminClassWidget.php:213
+msgid "Background Picture"
+msgstr "Obrázok na pozadí"
+
+#: class-lib/CLP_AdminClass.php:152 class-lib/CLP_AdminClass.php:222
+#: class-lib/CLP_AdminClass.php:270 class-lib/CLP_AdminClassWidget.php:143
+#: class-lib/CLP_AdminClassWidget.php:215
+msgid "Background Repeat"
+msgstr "Pozadie opakovanie"
+
+#: class-lib/CLP_AdminClass.php:154 class-lib/CLP_AdminClass.php:224
+#: class-lib/CLP_AdminClass.php:272 class-lib/CLP_AdminClassWidget.php:145
+#: class-lib/CLP_AdminClassWidget.php:217
+msgid "Position of the Background Picture"
+msgstr "Pozícia obrázok na pozadí"
+
+#: class-lib/CLP_AdminClass.php:156 class-lib/CLP_AdminClass.php:164
+#: class-lib/CLP_AdminClass.php:226 class-lib/CLP_AdminClass.php:274
+#: class-lib/CLP_AdminClass.php:308 class-lib/CLP_AdminClass.php:318
+#: class-lib/CLP_AdminClass.php:328 class-lib/CLP_AdminClassWidget.php:147
+#: class-lib/CLP_AdminClassWidget.php:219
+#: class-lib/CLP_AdminClassWidget.php:255
+#: class-lib/CLP_AdminClassWidget.php:265
+msgid "Background Colour"
+msgstr "Farba pozadia"
+
+#: class-lib/CLP_AdminClass.php:158 class-lib/CLP_AdminClass.php:166
+#: class-lib/CLP_AdminClass.php:228 class-lib/CLP_AdminClass.php:276
+#: class-lib/CLP_AdminClassWidget.php:149
+#: class-lib/CLP_AdminClassWidget.php:221
+#: class-lib/CLP_AdminClassWidget.php:267
+msgid "Second Background Colour (for Gradient)"
+msgstr "Druhá Farba pozadia (pre gradientu)"
+
+#: class-lib/CLP_AdminClass.php:160
+msgid "Background Size"
+msgstr "Pozadie Veľkosť"
+
+#: class-lib/CLP_AdminClass.php:168 class-lib/CLP_AdminClass.php:230
+#: class-lib/CLP_AdminClass.php:278 class-lib/CLP_AdminClass.php:306
+#: class-lib/CLP_AdminClass.php:316 class-lib/CLP_AdminClass.php:326
+#: class-lib/CLP_AdminClass.php:338 class-lib/CLP_AdminClass.php:352
+#: class-lib/CLP_AdminClassWidget.php:151
+#: class-lib/CLP_AdminClassWidget.php:223
+#: class-lib/CLP_AdminClassWidget.php:253
+#: class-lib/CLP_AdminClassWidget.php:269
+#: class-lib/CLP_AdminClassWidget.php:289
+#: class-lib/CLP_AdminClassWidget.php:303
+msgid "Text Colour"
+msgstr "Text Colour"
+
+#: class-lib/CLP_AdminClass.php:170 class-lib/CLP_AdminClass.php:238
+#: class-lib/CLP_AdminClass.php:286 class-lib/CLP_AdminClass.php:310
+#: class-lib/CLP_AdminClass.php:320 class-lib/CLP_AdminClass.php:330
+#: class-lib/CLP_AdminClassWidget.php:159
+#: class-lib/CLP_AdminClassWidget.php:231
+#: class-lib/CLP_AdminClassWidget.php:257
+#: class-lib/CLP_AdminClassWidget.php:271
+msgid "Border Colour"
+msgstr "Border Farba"
+
+#: class-lib/CLP_AdminClass.php:172 class-lib/CLP_AdminClassWidget.php:273
+msgid "Hover Background Colour"
+msgstr "Hover Farba pozadia"
+
+#: class-lib/CLP_AdminClass.php:174 class-lib/CLP_AdminClassWidget.php:275
+msgid "Second Hover Background Colour (for Gradient)"
+msgstr "Druhá Hover Farba pozadia (pre gradientu)"
+
+#: class-lib/CLP_AdminClass.php:176 class-lib/CLP_AdminClassWidget.php:277
+msgid "Hover Text Colour"
+msgstr "Hover Text Color"
+
+#: class-lib/CLP_AdminClass.php:178 class-lib/CLP_AdminClassWidget.php:279
+msgid "Hover Border Colour"
+msgstr "Hover Border Color"
+
+#: class-lib/CLP_AdminClass.php:184 class-lib/CLP_AdminClassWidget.php:183
+msgid "Logo URL"
+msgstr "Logo URL"
+
+#: class-lib/CLP_AdminClass.php:186 class-lib/CLP_AdminClassWidget.php:185
+msgid "URL to link to"
+msgstr "URL odkazy na"
+
+#: class-lib/CLP_AdminClass.php:188 class-lib/CLP_AdminClassWidget.php:187
+msgid "Title tag of the logo"
+msgstr "Názov tag logo"
+
+#: class-lib/CLP_AdminClass.php:192
+msgid "Width of the Logo (in px)"
+msgstr "Šírka loga (v px)"
+
+#: class-lib/CLP_AdminClass.php:194
+msgid "Height of the Logo (in px)"
+msgstr "Výška loga (v px)"
+
+#: class-lib/CLP_AdminClass.php:196
+msgid "Width of the Logo Container (in px)"
+msgstr "Šírka Logo Container (v px)"
+
+#: class-lib/CLP_AdminClass.php:198
+msgid "Height of the Logo Container (in px)"
+msgstr "Výška Logo Container (v px)"
+
+#: class-lib/CLP_AdminClass.php:200 class-lib/CLP_AdminClassWidget.php:191
+#, fuzzy
+msgid "Margin of the Logo Container (CSS)"
+msgstr "Šírka Logo Container (v px)"
+
+#: class-lib/CLP_AdminClass.php:202 class-lib/CLP_AdminClassWidget.php:193
+#, fuzzy
+msgid "Padding of the Logo Container (CSS)"
+msgstr "Šírka Logo Container (v px)"
+
+#: class-lib/CLP_AdminClass.php:206 class-lib/CLP_AdminClass.php:240
+#: class-lib/CLP_AdminClass.php:288 class-lib/CLP_AdminClassWidget.php:161
+#: class-lib/CLP_AdminClassWidget.php:197
+#: class-lib/CLP_AdminClassWidget.php:233
+msgid "Rounded Corners (in px)"
+msgstr "Zaoblené rohy (v px)"
+
+#: class-lib/CLP_AdminClass.php:208 class-lib/CLP_AdminClass.php:242
+#: class-lib/CLP_AdminClass.php:294 class-lib/CLP_AdminClass.php:342
+#: class-lib/CLP_AdminClass.php:356 class-lib/CLP_AdminClassWidget.php:163
+#: class-lib/CLP_AdminClassWidget.php:199
+#: class-lib/CLP_AdminClassWidget.php:239
+#: class-lib/CLP_AdminClassWidget.php:293
+#: class-lib/CLP_AdminClassWidget.php:307
+msgid "Shadow (x-direction in px)"
+msgstr "Shadow (x-smer v px)"
+
+#: class-lib/CLP_AdminClass.php:210 class-lib/CLP_AdminClass.php:244
+#: class-lib/CLP_AdminClass.php:296 class-lib/CLP_AdminClass.php:344
+#: class-lib/CLP_AdminClass.php:358 class-lib/CLP_AdminClassWidget.php:165
+#: class-lib/CLP_AdminClassWidget.php:201
+#: class-lib/CLP_AdminClassWidget.php:241
+#: class-lib/CLP_AdminClassWidget.php:295
+#: class-lib/CLP_AdminClassWidget.php:309
+msgid "Shadow (y-direction in px)"
+msgstr "Shadow (y-smer v px)"
+
+#: class-lib/CLP_AdminClass.php:212 class-lib/CLP_AdminClass.php:246
+#: class-lib/CLP_AdminClass.php:298 class-lib/CLP_AdminClass.php:346
+#: class-lib/CLP_AdminClass.php:360 class-lib/CLP_AdminClassWidget.php:167
+#: class-lib/CLP_AdminClassWidget.php:203
+#: class-lib/CLP_AdminClassWidget.php:243
+#: class-lib/CLP_AdminClassWidget.php:297
+#: class-lib/CLP_AdminClassWidget.php:311
+msgid "Shadow (softness in px)"
+msgstr "Shadow (mäkkosť v px)"
+
+#: class-lib/CLP_AdminClass.php:214 class-lib/CLP_AdminClass.php:248
+#: class-lib/CLP_AdminClass.php:300 class-lib/CLP_AdminClass.php:348
+#: class-lib/CLP_AdminClass.php:362 class-lib/CLP_AdminClassWidget.php:169
+#: class-lib/CLP_AdminClassWidget.php:205
+#: class-lib/CLP_AdminClassWidget.php:245
+#: class-lib/CLP_AdminClassWidget.php:299
+#: class-lib/CLP_AdminClassWidget.php:313
+msgid "Shadow Colour"
+msgstr "Tieň Farba"
+
+#: class-lib/CLP_AdminClass.php:232 class-lib/CLP_AdminClass.php:280
+#: class-lib/CLP_AdminClass.php:312 class-lib/CLP_AdminClass.php:322
+#: class-lib/CLP_AdminClassWidget.php:153
+#: class-lib/CLP_AdminClassWidget.php:225
+msgid "Transparency (in percent)"
+msgstr "Priehľadnosť (v percentách)"
+
+#: class-lib/CLP_AdminClass.php:234 class-lib/CLP_AdminClass.php:282
+#: class-lib/CLP_AdminClassWidget.php:155
+#: class-lib/CLP_AdminClassWidget.php:227
+msgid "Border Style"
+msgstr "Border Style"
+
+#: class-lib/CLP_AdminClass.php:236 class-lib/CLP_AdminClass.php:284
+#: class-lib/CLP_AdminClassWidget.php:157
+#: class-lib/CLP_AdminClassWidget.php:229
+msgid "Border Width (in px)"
+msgstr "Šírka okraja (v px)"
+
+#: class-lib/CLP_AdminClass.php:252
+msgid "Position (x-direction in px)"
+msgstr "Pozícia (x-smer v px)"
+
+#: class-lib/CLP_AdminClass.php:254
+msgid "Position (y-direction in px)"
+msgstr "Pozícia (y-smer v px)"
+
+#: class-lib/CLP_AdminClass.php:256
+msgid "Width (in px)"
+msgstr "Šírka (v px)"
+
+#: class-lib/CLP_AdminClass.php:258
+msgid "Height (in px)"
+msgstr "Výška (v px)"
+
+#: class-lib/CLP_AdminClass.php:260 class-lib/CLP_AdminClass.php:290
+#: class-lib/CLP_AdminClassWidget.php:173
+#: class-lib/CLP_AdminClassWidget.php:235
+msgid "Padding"
+msgstr "Padding"
+
+#: class-lib/CLP_AdminClass.php:262 class-lib/CLP_AdminClass.php:292
+#: class-lib/CLP_AdminClassWidget.php:175
+#: class-lib/CLP_AdminClassWidget.php:237
+msgid "Margin"
+msgstr "Okraj"
+
+#: class-lib/CLP_AdminClass.php:336 class-lib/CLP_AdminClassWidget.php:287
+#, fuzzy
+msgid "Font Size"
+msgstr "Pozadie Veľkosť"
+
+#: class-lib/CLP_AdminClass.php:340 class-lib/CLP_AdminClass.php:354
+#: class-lib/CLP_AdminClassWidget.php:291
+#: class-lib/CLP_AdminClassWidget.php:305
+msgid "Text Decoration"
+msgstr "Text dekorácie"
+
+#: class-lib/CLP_AdminClass.php:366 class-lib/CLP_AdminClass.php:1303
+#: class-lib/CLP_AdminClassWidget.php:317
+#: class-lib/CLP_AdminClassWidget.php:1154
+#: class-lib/CLP_AdminClassWidget.php:1244
+#, fuzzy
+msgid "CSS"
+msgstr "Len dať nejaký kód css tu."
+
+#: class-lib/CLP_AdminClass.php:368 class-lib/CLP_AdminClassWidget.php:319
+msgid "Own CSS"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:370 class-lib/CLP_AdminClassWidget.php:321
+msgid "Override other styles"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:370 class-lib/CLP_AdminClassWidget.php:321
+msgid ""
+"By checking this, all other styles will be replaced by your CSS. Otherwise, "
+"your CSS is additional."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:374
+msgid "SVG"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:376
+msgid "Some SVG"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:380
+msgid "Aditional html snippets"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:382 class-lib/CLP_AdminClassWidget.php:331
+#, fuzzy
+msgid "Above Form"
+msgstr "Nad miniatúru"
+
+#: class-lib/CLP_AdminClass.php:384
+#, fuzzy
+msgid "Inside Form"
+msgstr "Prihlásiť sa formulár"
+
+#: class-lib/CLP_AdminClass.php:386 class-lib/CLP_AdminClassWidget.php:333
+#, fuzzy
+msgid "Beneath Form"
+msgstr "Prihlásiť sa formulár"
+
+#: class-lib/CLP_AdminClass.php:396
+#, fuzzy
+msgid ""
+"You can enter your own logout message here. You can make your blog a bit "
+"more personal like that."
+msgstr ""
+"Okrem toho si môžete zadať svoj vlastný odhlásenia správu. Môžete si "
+"vytvoriť svoj blog trochu viac osobné, ako že."
+
+#: class-lib/CLP_AdminClass.php:397
+#, fuzzy
+msgid ""
+"Furthermore, you can enter your own error message. By default, Wordpress "
+"says that either the username or the password is wrong, which is perhaps a "
+"hint to foreigners that you don&#39;t wish to give.."
+msgstr ""
+"Okrem toho si môžete zadať svoj vlastný chybovú správu. V predvolenom "
+"nastavení, Wordpress hovorí, že buď užívateľské meno alebo heslo je zlé, čo "
+"je možno náznak pre cudzincov, ktoré si neprajete, aby."
+
+#: class-lib/CLP_AdminClass.php:398
+msgid ""
+"If you don&#39;t want to style your login page item by item, you can as well "
+"move on to enter a whole style sheet in the css tab."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:399 class-lib/CLP_AdminClass.php:525
+#: class-lib/CLP_AdminClass.php:627 class-lib/CLP_AdminClass.php:736
+#: class-lib/CLP_AdminClass.php:886 class-lib/CLP_AdminClass.php:1001
+#: class-lib/CLP_AdminClass.php:1089 class-lib/CLP_AdminClassWidget.php:700
+#: class-lib/CLP_AdminClassWidget.php:922
+msgid ""
+"You can leave any of the fields empty to keep the default settings of "
+"Wordpress."
+msgstr ""
+"Môžete zanechať niektorý z polí vyprázdniť, aby predvolené nastavenia "
+"Wordpress."
+
+#: class-lib/CLP_AdminClass.php:417
+#, fuzzy
+msgid ""
+"Export the current A5 Custom Login Page settings and download them as a text "
+"file. The content of this text file can be imported into this or another A5 "
+"Custom Login Page installation:"
+msgstr ""
+"Export aktuálne A5 Vlastné nastavenie prihlasovaciu stránku a stiahnuť si "
+"ich ako textový súbor. Tento textový súbor je možné importovať do tohto "
+"alebo iného A5 Page Meno Vlastná inštalácia:"
+
+#: class-lib/CLP_AdminClass.php:418 class-lib/CLP_AdminClassWidget.php:450
+#, fuzzy, php-format
+msgctxt "%s is the file name"
+msgid ""
+"The file will be named %s. After you downloaded it, you can (but don&#39;t "
+"need to) rename the file to something more meaningful."
+msgstr ""
+"Po stiahnutí to, môžete (ale nemusíte) premenovať súbor na niečo "
+"zmysluplnejšie."
+
+#: class-lib/CLP_AdminClass.php:424 class-lib/CLP_AdminClassWidget.php:456
+msgid "Export &amp; Download"
+msgstr "Export & Stiahnuť"
+
+#: class-lib/CLP_AdminClass.php:430 class-lib/CLP_AdminClassWidget.php:462
+msgid "Enter the content of your text file with the settings here."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:450
+msgid "You can enter redirections for each user role of the blog."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:451
+msgid ""
+"If you leave a field empty, the plugin will redirect to the default page."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:479
+msgid "You can hide the links under login form if wanting to."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:497
+msgid ""
+"There seem to be problems with the virtual stylesheet in some environments. "
+"By choosing to write the styles inline, those can be avoided.)."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:523
+msgid ""
+"You can enter the url of the background picture, that you want to have on "
+"the login page. Just upload any picture via the uploader on the Media "
+"section and copy the url of that file here. Leave it empty, if you don&#39;t "
+"want a picture. Background images are tiled by default. You can select the "
+"direction of repeating the image or to not repeat it. The position of the "
+"image can be something like &#39;100px 50%&#39; or &#39center top&#39;. If "
+"you want the background picture to cover the whole screen, put &#39;"
+"cover&#39; as size. Otherwise, fill in any css (like &#39;auto 150px&#39;)."
+msgstr ""
+"Môžete zadať adresu URL na pozadí obrázku, ktoré chcete mať na prihlasovacej "
+"stránke. Stačí nahrať akýkoľvek obrázok cez nahral na sekcii Media a "
+"skopírujte adresu URL tohto súboru tu. Nechaj to prázdne, ak nechcete "
+"obrázok. Obrázky na pozadí sú obložené v predvolenom nastavení. Môžete si "
+"vybrať smer opakovanie obrazu, alebo je opakovať. Pozícia obrazu môže byť "
+"niečo ako  &#39;100px 50%&#39 \". Ak chcete, aby backgroundfotografie pokryť "
+"celú obrazovku, dať 'kryt' ako veľkosti. Inak, vyplňte v každom css (napr."
+"&#39;auto 150px&#39;)."
+
+#: class-lib/CLP_AdminClass.php:524
+msgid ""
+"In the last section, you choose the background colour and the colour of the "
+"text in the html body element. If you give two background colours, you can "
+"create a gradient. Colour no. 1 will always be up."
+msgstr ""
+"V poslednej časti si môžete zvoliť farbu pozadia a farbu textu v HTML "
+"elementu body. Ak dávať dve farby pozadia, môžete vytvoriť prechod. Farba "
+"nie. 1 bude vždy."
+
+#: class-lib/CLP_AdminClass.php:539 class-lib/CLP_AdminClass.php:750
+#: class-lib/CLP_AdminClass.php:900 class-lib/CLP_AdminClassWidget.php:500
+#: class-lib/CLP_AdminClassWidget.php:720
+msgid "default"
+msgstr "štandardné"
+
+#: class-lib/CLP_AdminClass.php:569 class-lib/CLP_AdminClassWidget.php:858
+msgid ""
+"Enter the background, text and border colour of the submit button here. The "
+"button will look static if you don&#39;t give values for the hover state of "
+"it. If you want to have a gradient, enter two background colours. The first "
+"one will be up then."
+msgstr ""
+"Zadajte pozadia, textu a hranice farbu tlačidla submit tu. Tlačidlo bude "
+"vyzerať statická, ak nedáte hodnoty pre stav hover nej. Ak chcete mať "
+"prechod, zadajte dve farby pozadia. Prvý z nich bude sa potom."
+
+#: class-lib/CLP_AdminClass.php:625
+msgid ""
+"You can enter the url of the logo, that you want to have in place of the WP "
+"logo on the login screen. Just upload any picture (best is a png or gif with "
+"transparent background) via the uploader on the Media section and copy the "
+"url of that file here."
+msgstr ""
+"Môžete zadať adresu URL loga, ktoré chcete mať v mieste WP loga na "
+"prihlasovacej obrazovke. Stačí nahrať akýkoľvek obrázok (najlepšie je png "
+"alebo gif s priehľadným pozadím) pomocou nahral na sekcii Media a skopírujte "
+"adresu URL tohto súboru tu."
+
+#: class-lib/CLP_AdminClass.php:626 class-lib/CLP_AdminClassWidget.php:608
+msgid "In the URL field, you enter the URL to which the logo should link."
+msgstr "V poli URL, zadať adresu URL, na ktoré by sa logo malo spojiť."
+
+#: class-lib/CLP_AdminClass.php:651
+msgid ""
+"If your logo is larger than the default WP-logo (274px by 63px), you can "
+"enter the width and the height of it here."
+msgstr ""
+"Ak vaše logo je väčšia ako predvolený WP-logo (274px by 63px), môžete zadať "
+"šírku a výšku to tu."
+
+#: class-lib/CLP_AdminClass.php:652
+msgid ""
+"The width and height of the logo-container are by default 326px and 67px. "
+"They are used to move the Logo around, since the background-position is "
+"always &#39;center top&#39;."
+msgstr ""
+"Šírka a výška loga kontajnera sú implicitne 326px 67px a Oni sú zvyknutí na "
+"pohyb Logo okolo, pretože background-position je vždy \"centrum hore\"."
+
+#: class-lib/CLP_AdminClass.php:694 class-lib/CLP_AdminClassWidget.php:657
+#, fuzzy
+msgid ""
+"Here you can style the logo a bit. Give it a shadow or round corners if you "
+"like."
+msgstr ""
+"Tu môžete štýl logo bit. Dajte mu tieň, alebo zaoblené rohy, ak sa vám páči"
+
+#: class-lib/CLP_AdminClass.php:732
+msgid ""
+"You can enter the url of the background picture, that you want to have on "
+"the login container. Just upload any picture via the uploader on the Media "
+"section and copy the url of that file here. Leave it empty, if you don&#39;t "
+"want a picture. Background images are tiled by default. You can select the "
+"direction of repeating the image or to not repeat it. The position of the "
+"image can be something like &#39;100px 50%&#39; or &#39;center top&#39;."
+msgstr ""
+"Môžete zadať adresu URL na pozadí obrázku, ktoré chcete mať na prihlasovacej "
+"kontajnera. Stačí nahrať akýkoľvek obrázok cez nahral na sekcii Media a "
+"skopírujte adresu URL tohto súboru tu. Nechaj to prázdne, ak nechcete "
+"obrázok. Obrázky na pozadí sú obložené v predvolenom nastavení. Môžete si "
+"vybrať smer opakovanie obrazu, alebo je opakovať. Pozícia obrazu môže byť "
+"niečo ako '100px 50% \"alebo\" centrum hore \"."
+
+#: class-lib/CLP_AdminClass.php:733
+msgid ""
+"In the next section, you choose the background colour and the colour of the "
+"text in the login container. If you give two background colours, you can "
+"create a gradient. Colour no. 1 will always be up."
+msgstr ""
+"V ďalšej časti si môžete zvoliť farbu pozadia a farbu textu v prihlasovacom "
+"kontajnera. Ak dávať dve farby pozadia, môžete vytvoriť prechod. Farba nie. "
+"1 bude vždy."
+
+#: class-lib/CLP_AdminClass.php:734 class-lib/CLP_AdminClass.php:883
+#: class-lib/CLP_AdminClassWidget.php:484
+#: class-lib/CLP_AdminClassWidget.php:697
+msgid ""
+"Choose a border, if wanting one. Define style, width and whether or not, you "
+"want to have rounded corners (is not supported by all browsers)."
+msgstr ""
+"Vyberte si hranice, ak chcú jeden. Definovať štýl, šírku a či alebo nie, "
+"chcete mať zaoblené rohy (nie je podporovaný všetkými prehliadačmi)."
+
+#: class-lib/CLP_AdminClass.php:735 class-lib/CLP_AdminClassWidget.php:485
+msgid ""
+"At last, give the container a shadow (is not supported by all browsers)."
+msgstr ""
+"Konečne, dať kontajner tieň (nie je podporovaný všetkými prehliadačmi)."
+
+#: class-lib/CLP_AdminClass.php:788 class-lib/CLP_AdminClass.php:938
+#: class-lib/CLP_AdminClassWidget.php:538
+#: class-lib/CLP_AdminClassWidget.php:758
+msgid "choose a border style"
+msgstr "vyberte štýl orámovania"
+
+#: class-lib/CLP_AdminClass.php:836
+msgid ""
+"Here you can give the whole login container a position. If you enter "
+"&#39;0&#39; in both of the fields, it will be in the top left corner of the "
+"screen."
+msgstr ""
+"Tu si môžete dať celému prihlásiť kontajner pozíciu. Ak zadáte '0 'obe "
+"polia, bude v ľavom hornom rohu obrazovky."
+
+#: class-lib/CLP_AdminClass.php:837
+#, fuzzy
+msgid ""
+"The Padding and Margin are given as css value. I.e. &#39;144px 0 0&#39; "
+"(which is the default padding of the login container)."
+msgstr ""
+"Padding sa, rovnako ako hodnota css. Tj. '144px 0 0 \"(čo je predvolené "
+"Čalúnenie prihlásenie kontajnera)."
+
+#: class-lib/CLP_AdminClass.php:881 class-lib/CLP_AdminClassWidget.php:695
+msgid ""
+"You can enter the url of the background picture, that you want to have in "
+"the login form. Just upload any picture via the uploader on the Media "
+"section and copy the url of that file here. Leave it empty, if you don&#39;t "
+"want a picture. Background images are tiled by default. You can select the "
+"direction of repeating the image or to not repeat it. The position of the "
+"image can be something like &#39;100px 50%&#39; or &#39center top&#39;."
+msgstr ""
+"Môžete zadať adresu URL na pozadí obrázku, ktoré chcete mať v prihlasovacom "
+"formulári. Stačí nahrať akýkoľvek obrázok cez nahral na sekcii Media a "
+"skopírujte adresu URL tohto súboru tu. Nechaj to prázdne, ak nechcete "
+"obrázok. Obrázky na pozadí sú obložené v predvolenom nastavení. Môžete si "
+"vybrať smer opakovanie obrazu, alebo je opakovať. Pozícia obrazu môže byť "
+"niečo ako '100px 50% \"alebo\" centrum hore \"."
+
+#: class-lib/CLP_AdminClass.php:882 class-lib/CLP_AdminClassWidget.php:696
+msgid ""
+"In the next section, you choose the background colour and the colour of the "
+"text in the login form. If you give two background colours, you can create a "
+"gradient. Colour no. 1 will always be up."
+msgstr ""
+"V ďalšej časti si môžete zvoliť farbu pozadia a farbu textu v prihlasovacom "
+"formulári. Ak dávať dve farby pozadia, môžete vytvoriť prechod. Farba nie. 1 "
+"bude vždy."
+
+#: class-lib/CLP_AdminClass.php:884
+msgid ""
+"Margin and Padding are given as css values. The form has a left margin of "
+"8px by default and a padding of 26px 24px 46px. By changing the top and the "
+"bottom padding, you can stretch the form in its length."
+msgstr ""
+"Marža a Padding sú, rovnako ako hodnoty css. Formulár má ľavý okraj 8px v "
+"predvolenom nastavení a polstrovanie na 26px 24px 46px. Zmenou horné a "
+"spodné odsadenie, môžete natiahnuť formulár v jeho dĺžky."
+
+#: class-lib/CLP_AdminClass.php:885 class-lib/CLP_AdminClassWidget.php:699
+msgid "At last, give the form a shadow (is not supported by all browsers)."
+msgstr "Konečne, dať formou tieň (nie je podporovaný všetkými prehliadačmi)."
+
+#: class-lib/CLP_AdminClass.php:1000
+msgid ""
+"This changes the the text container, that appears, when you have "
+"successfully logged out."
+msgstr ""
+"Tým sa zmení text kontajner, ktorý sa zobrazí, keď ste úspešne odhlásený."
+
+#: class-lib/CLP_AdminClass.php:1031
+msgid ""
+"This changes the text container, that appears, when you get an error logging "
+"in."
+msgstr ""
+"Tým sa zmení textovú kontajner, ktorý sa zobrazí, keď sa dostanete k chybe "
+"prihlásenie"
+
+#: class-lib/CLP_AdminClass.php:1061 class-lib/CLP_AdminClassWidget.php:820
+msgid ""
+"This changes the colours of the name and password fields of the log in form."
+msgstr "Tým sa zmení farby mena a hesla odbory protokolu vo forme."
+
+#: class-lib/CLP_AdminClass.php:1087 class-lib/CLP_AdminClassWidget.php:920
+msgid ""
+"Style the links by giving a text colour, text decoration and shadow for the "
+"link and the hover style."
+msgstr ""
+"Štýl väzby tým, že farbu textu, textové dekorácie a tieň pre odkaz a štýl "
+"hover."
+
+#: class-lib/CLP_AdminClass.php:1088 class-lib/CLP_AdminClassWidget.php:921
+#, php-format
+msgid "For the font size, give a css value, such as %1$s or %2$s."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1139 class-lib/CLP_AdminClassWidget.php:978
+msgid "The same for the hover state."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1185 class-lib/CLP_AdminClassWidget.php:1024
+msgid ""
+"Here you can enter some css. You either can enter an entire style sheet or "
+"just some additional css."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1186 class-lib/CLP_AdminClassWidget.php:1025
+msgid ""
+"This gives you much more freedom with styling your login widget than the "
+"rather foolproof but very limited options ."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1187 class-lib/CLP_AdminClassWidget.php:1026
+msgid ""
+"You can of course copy the style sheet written by the plugin, paste it here "
+"and start finetuning."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1205
+msgid ""
+"Here you can enter some svg, i.e. filter rules to use in Firefox. In case "
+"you wish to use the svg as an image, it will be just above the login form."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1225
+msgid ""
+"If you want to have some additional html in your login page, there are three "
+"places to put it. Above the form, in the form and under it."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1226 class-lib/CLP_AdminClassWidget.php:1053
+#: class-lib/CLP_AdminClassWidget.php:1078
+msgid ""
+"You can use the additional css to style the html snippets that you enter "
+"here."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1291 class-lib/CLP_AdminClassWidget.php:1144
+msgid ""
+"http://wasistlos.waldemarstoffel.com/plugins-fur-wordpress/a5-custom-login-"
+"page"
+msgstr ""
+"http://wasistlos.waldemarstoffel.com/plugins-fur-wordpress/a5-custom-login-"
+"page"
+
+#: class-lib/CLP_AdminClass.php:1295 class-lib/CLP_AdminClassWidget.php:1148
+msgid "General Options"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1296
+msgid "Advanced Options"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1297
+#, fuzzy
+msgid "Body & Submit Button"
+msgstr "Body"
+
+#: class-lib/CLP_AdminClass.php:1299 class-lib/CLP_AdminClass.php:1403
+msgid "Login Container"
+msgstr "Prihlásiť sa kontajner"
+
+#: class-lib/CLP_AdminClass.php:1300 class-lib/CLP_AdminClass.php:1419
+#: class-lib/CLP_AdminClassWidget.php:1151
+#: class-lib/CLP_AdminClassWidget.php:1217
+msgid "Login Form"
+msgstr "Prihlásiť sa formulár"
+
+#: class-lib/CLP_AdminClass.php:1301
+#, fuzzy
+msgid "Messages & Input Fields"
+msgstr "Vstupné pole"
+
+#: class-lib/CLP_AdminClass.php:1302 class-lib/CLP_AdminClass.php:1451
+#: class-lib/CLP_AdminClassWidget.php:1153
+#: class-lib/CLP_AdminClassWidget.php:1234
+msgid "Links"
+msgstr "Links"
+
+#: class-lib/CLP_AdminClass.php:1304 class-lib/CLP_AdminClassWidget.php:1155
+msgid "Additional HTML"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1305 class-lib/CLP_AdminClass.php:1530
+#: class-lib/CLP_AdminClassWidget.php:1553
+msgid "Preview"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1335
+#, fuzzy
+msgid "Logged Out and Error Messages"
+msgstr "Prihlásený Out Message"
+
+#: class-lib/CLP_AdminClass.php:1337 class-lib/CLP_AdminClassWidget.php:1187
+msgid "Import / Export"
+msgstr "Import / Export"
+
+#: class-lib/CLP_AdminClass.php:1339 class-lib/CLP_AdminClass.php:1357
+#: class-lib/CLP_AdminClass.php:1373 class-lib/CLP_AdminClass.php:1391
+#: class-lib/CLP_AdminClass.php:1407 class-lib/CLP_AdminClass.php:1421
+#: class-lib/CLP_AdminClass.php:1439 class-lib/CLP_AdminClass.php:1455
+#: class-lib/CLP_AdminClass.php:1469 class-lib/CLP_AdminClass.php:1516
+#: class-lib/CLP_AdminClass.php:1536 class-lib/CLP_AdminClassWidget.php:1282
+msgid "Debug Info"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1351
+msgid "Custom Redirects"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1353
+#, fuzzy
+msgid "Hide Links"
+msgstr "Links"
+
+#: class-lib/CLP_AdminClass.php:1355
+msgid "Debug dynamical CSS"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1369
+msgid "Body"
+msgstr "Body"
+
+#: class-lib/CLP_AdminClass.php:1371 class-lib/CLP_AdminClassWidget.php:1227
+#, fuzzy
+msgid "Submit Button"
+msgstr ""
+"Zadajte pozadia, textu a hranice farbu tlačidla submit tu. Tlačidlo bude "
+"vyzerať statická, ak nedáte hodnoty pre stav hover nej. Ak chcete mať "
+"prechod, zadajte dve farby pozadia. Prvý z nich bude sa potom."
+
+#: class-lib/CLP_AdminClass.php:1385 class-lib/CLP_AdminClassWidget.php:1205
+#, fuzzy
+msgid "Logo of the Login Screen"
+msgstr "Výška loga (v px)"
+
+#: class-lib/CLP_AdminClass.php:1387
+msgid "Position and Size of the Logo"
+msgstr "Poloha a veľkosť loga"
+
+#: class-lib/CLP_AdminClass.php:1389 class-lib/CLP_AdminClassWidget.php:1209
+msgid "Styling of the Logo"
+msgstr "Styling na Logo"
+
+#: class-lib/CLP_AdminClass.php:1405
+msgid "Position and Size of the Login Container"
+msgstr "Poloha a Veľkosť Meno kontajner"
+
+#: class-lib/CLP_AdminClass.php:1437 class-lib/CLP_AdminClassWidget.php:1225
+msgid "Input Fields"
+msgstr "Vstupné pole"
+
+#: class-lib/CLP_AdminClass.php:1453 class-lib/CLP_AdminClassWidget.php:1236
+#, fuzzy
+msgid "Links Hover"
+msgstr "Links"
+
+#: class-lib/CLP_AdminClass.php:1467
+msgid "CSS and SVG"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1492
+msgid ""
+"To be able to use your own css it is important to know, what elements you "
+"actually can style on the login page. In the list below you find all "
+"neccessary selectors for your style sheet."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1496
+msgid ""
+"In order to override the original styles, your selectors have to be more "
+"precise than the original ones. By using the ones in the list exactly how "
+"they are there, you should be fine."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1500 class-lib/CLP_AdminClassWidget.php:1268
+msgid "CSS Help"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1502 class-lib/CLP_AdminClassWidget.php:1292
+msgid ""
+"If you like the plugin and find it useful, you might think of rewarding the "
+"dozens of hours of work that were spent creating it."
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1504 class-lib/CLP_AdminClassWidget.php:1294
+#, fuzzy
+msgid "Donations"
+msgstr "Donate"
+
+#: class-lib/CLP_AdminClass.php:1514 class-lib/CLP_AdminClassWidget.php:1276
+#: class-lib/CLP_AdminClassWidget.php:1278
+msgid "HTML additions"
+msgstr ""
+
+#: class-lib/CLP_AdminClass.php:1562 class-lib/CLP_AdminClassWidget.php:1318
+msgid "This doesn&#39;t seem to be a valid settings file."
+msgstr "To sa nezdá byť platným súbor nastavení."
+
+#: class-lib/CLP_AdminClass.php:1575 class-lib/CLP_AdminClassWidget.php:1328
+msgid "Settings successfully imported."
+msgstr "Nastavenie úspešne importované."
+
+#: class-lib/CLP_AdminClass.php:1745 class-lib/CLP_AdminClassWidget.php:1534
+#, fuzzy
+msgid "Settings saved."
+msgstr "Nastavenie uložené"
+
+#: class-lib/CLP_AdminClassWidget.php:74
+msgid ""
+"In these settings you will be guided step by step through the process of "
+"styling your login widget. The basic options are very foolproof but also "
+"very limited."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:75
+msgid ""
+"If you are familiar with coding your own css, you can use only the css tab "
+"to write your entire style sheet there. Next to the input for the css, you "
+"find a help box with all the elements in the widget that you can style."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:76
+msgid ""
+"In the preview, you can see approximately how the widget will look. A couple "
+"of things will be different on your blog since in the admin screen, the "
+"style sheet of your theme is not loaded. Nevertheless, you have a good idea "
+"on how the widget will be in the frontend."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:99
+msgid "Label for Username"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:101
+msgid "Label for Password"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:103
+msgid "Label for Remember Me"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:105
+#, fuzzy
+msgid "Label for Submit Button"
+msgstr "Odoslať Tlačidlo"
+
+#: class-lib/CLP_AdminClassWidget.php:107
+msgid "Hide Remember Me"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:109
+msgid "Check Remember Me by Default"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:113
+msgid "Redirect"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:113
+msgid ""
+"Enter here the site of your blog to which the user should be redirected, "
+"after login. By default this would be the same place where the widget is."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:115
+#, fuzzy
+msgid "Form ID"
+msgstr "Prihlásiť sa formulár"
+
+#: class-lib/CLP_AdminClassWidget.php:117
+msgid "User Name ID"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:119
+msgid "Password ID"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:121
+msgid "Remember Me ID"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:123
+#, fuzzy
+msgid "Submit Button ID"
+msgstr "Odoslať Tlačidlo"
+
+#: class-lib/CLP_AdminClassWidget.php:125
+msgid "Value for User Name"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:125
+msgid ""
+"You can write some default value for the user name here. By default, there "
+"is nothing."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:181
+#: class-lib/CLP_AdminClassWidget.php:211
+#: class-lib/CLP_AdminClassWidget.php:251
+#: class-lib/CLP_AdminClassWidget.php:263
+#: class-lib/CLP_AdminClassWidget.php:285
+#: class-lib/CLP_AdminClassWidget.php:329
+#, fuzzy
+msgid "Copy Settings"
+msgstr "Nastavenia"
+
+#: class-lib/CLP_AdminClassWidget.php:181
+msgid "Check, to copy the settings for the logo from the login page."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:211
+msgid "Check, to copy the settings for the login form from the login page."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:251
+msgid "Check, to copy the settings for the input fields from the login page."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:259
+msgid "Float"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:263
+msgid "Check, to copy the settings for the login button from the login page."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:285
+msgid "Check, to copy the settings for the links from the login page."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:327
+msgid "Aditional html snippets outside of the form"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:329
+msgid "Check, to copy the settings for the html snippets from the login page."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:335
+msgid "Aditional html snippets inside of the form"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:337
+#, fuzzy
+msgid "Top"
+msgstr ""
+"Šírka a výška loga kontajnera sú implicitne 326px 67px a Oni sú zvyknutí na "
+"pohyb Logo okolo, pretože background-position je vždy \"centrum hore\"."
+
+#: class-lib/CLP_AdminClassWidget.php:339
+msgid "Middle"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:341
+#, fuzzy
+msgid "Bottom"
+msgstr ""
+"Marža a Padding sú, rovnako ako hodnoty css. Formulár má ľavý okraj 8px v "
+"predvolenom nastavení a polstrovanie na 26px 24px 46px. Zmenou horné a "
+"spodné odsadenie, môžete natiahnuť formulár v jeho dĺžky."
+
+#: class-lib/CLP_AdminClassWidget.php:351
+#, fuzzy
+msgid "You can leave all the fields empty to have the default login form."
+msgstr ""
+"Môžete zanechať niektorý z polí vyprázdniť, aby predvolené nastavenia "
+"Wordpress."
+
+#: class-lib/CLP_AdminClassWidget.php:357
+#: class-lib/CLP_AdminClassWidget.php:1561 class-lib/CLP_WidgetClass.php:176
+msgid "Username"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:363
+#: class-lib/CLP_AdminClassWidget.php:1562 class-lib/CLP_WidgetClass.php:177
+#, fuzzy
+msgid "Password"
+msgstr "Tým sa zmení farby mena a hesla odbory protokolu vo forme."
+
+#: class-lib/CLP_AdminClassWidget.php:369
+#: class-lib/CLP_AdminClassWidget.php:1563 class-lib/CLP_WidgetClass.php:178
+msgid "Remember Me"
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:375
+#: class-lib/CLP_AdminClassWidget.php:1564 class-lib/CLP_WidgetClass.php:179
+#, fuzzy
+msgid "Log In"
+msgstr "Tým sa zmení farby mena a hesla odbory protokolu vo forme."
+
+#: class-lib/CLP_AdminClassWidget.php:399
+msgid ""
+"In most cases, it won&#38;t make sense to change anything here. You might "
+"some reasons to try something out, though."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:449
+#, fuzzy
+msgid ""
+"Export the current A5 Custom Login Widget settings and download them as a "
+"text file. The content of this text file can be imported into this or "
+"another A5 Custom Login Widget installation:"
+msgstr ""
+"Export aktuálne A5 Vlastné nastavenie prihlasovaciu stránku a stiahnuť si "
+"ich ako textový súbor. Tento textový súbor je možné importovať do tohto "
+"alebo iného A5 Page Meno Vlastná inštalácia:"
+
+#: class-lib/CLP_AdminClassWidget.php:482
+#, fuzzy
+msgid ""
+"You can enter the url of the background picture, that you want to have on "
+"the widget container. Just upload any picture via the uploader on the Media "
+"section and copy the url of that file here. Leave it empty, if you don&#39;t "
+"want a picture. Background images are tiled by default. You can select the "
+"direction of repeating the image or to not repeat it. The position of the "
+"image can be something like &#39;100px 50%&#39; or &#39;center top&#39;."
+msgstr ""
+"Môžete zadať adresu URL na pozadí obrázku, ktoré chcete mať na prihlasovacej "
+"kontajnera. Stačí nahrať akýkoľvek obrázok cez nahral na sekcii Media a "
+"skopírujte adresu URL tohto súboru tu. Nechaj to prázdne, ak nechcete "
+"obrázok. Obrázky na pozadí sú obložené v predvolenom nastavení. Môžete si "
+"vybrať smer opakovanie obrazu, alebo je opakovať. Pozícia obrazu môže byť "
+"niečo ako '100px 50% \"alebo\" centrum hore \"."
+
+#: class-lib/CLP_AdminClassWidget.php:483
+#, fuzzy
+msgid ""
+"In the next section, you choose the background colour and the colour of the "
+"text in the widget. If you give two background colours, you can create a "
+"gradient. Colour no. 1 will always be up."
+msgstr ""
+"V ďalšej časti si môžete zvoliť farbu pozadia a farbu textu v prihlasovacom "
+"kontajnera. Ak dávať dve farby pozadia, môžete vytvoriť prechod. Farba nie. "
+"1 bude vždy."
+
+#: class-lib/CLP_AdminClassWidget.php:486
+#, fuzzy
+msgid ""
+"You can leave any of the fields empty to keep the default widget of your "
+"theme."
+msgstr ""
+"Môžete zanechať niektorý z polí vyprázdniť, aby predvolené nastavenia "
+"Wordpress."
+
+#: class-lib/CLP_AdminClassWidget.php:586
+msgid ""
+"Depending on what you do to the widget itself, you might want to change "
+"it&#39;s padding and margin as well."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:587
+#, fuzzy
+msgid ""
+"The Padding and Margin are given as css value. I.e. &#39;144px 0 0&#39;."
+msgstr ""
+"Padding sa, rovnako ako hodnota css. Tj. '144px 0 0 \"(čo je predvolené "
+"Čalúnenie prihlásenie kontajnera)."
+
+#: class-lib/CLP_AdminClassWidget.php:607
+#, fuzzy
+msgid ""
+"You can enter the url of the logo, that you want to have in the widget. Just "
+"upload any picture (best is a png or gif with transparent background) via "
+"the uploader on the Media section and copy the url of that file here."
+msgstr ""
+"Môžete zadať adresu URL loga, ktoré chcete mať v mieste WP loga na "
+"prihlasovacej obrazovke. Stačí nahrať akýkoľvek obrázok (najlepšie je png "
+"alebo gif s priehľadným pozadím) pomocou nahral na sekcii Media a skopírujte "
+"adresu URL tohto súboru tu."
+
+#: class-lib/CLP_AdminClassWidget.php:609
+msgid ""
+"You can leave the fields empty if you don&#39;t want a logo in the widget. "
+"Or just copy the settings from the login page, to have a down-sized version "
+"of the logo in the widget."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:639
+msgid ""
+"Here you can can give the Logo in the widget a margin and a padding, if "
+"necessary."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:698
+msgid "Margin and Padding are given as css values."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:852
+#, fuzzy
+msgid "choose a value"
+msgstr "vyberte štýl orámovania"
+
+#: class-lib/CLP_AdminClassWidget.php:1052
+msgid ""
+"If you want to have some additional html outside your login form, there are "
+"two places to put it. Above the form and under it. This is done for "
+"conformity with the login page and it&#39;s filters."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:1077
+msgid ""
+"If you want to have some additional html inside your login form, there are "
+"three places to put it. On top, in the middle and at the bottom. Those are "
+"the original filters for the form."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:1149
+#, fuzzy
+msgid "Widget"
+msgstr "Vyberte si tu post, ktoré chcete zobraziť v widget."
+
+#: class-lib/CLP_AdminClassWidget.php:1152
+#, fuzzy
+msgid "Input Fields & Submit Button"
+msgstr "Vstupné pole"
+
+#: class-lib/CLP_AdminClassWidget.php:1183
+#, fuzzy
+msgid "Basic Options for the Login Form"
+msgstr "Prihlásiť sa formulár"
+
+#: class-lib/CLP_AdminClassWidget.php:1185
+#, fuzzy
+msgid "Advanced Options for the Login Form"
+msgstr "Prihlásiť sa formulár"
+
+#: class-lib/CLP_AdminClassWidget.php:1195
+#, fuzzy
+msgid "Widget Container"
+msgstr "Prihlásiť sa kontajner"
+
+#: class-lib/CLP_AdminClassWidget.php:1197
+#: class-lib/CLP_AdminClassWidget.php:1207
+#, fuzzy
+msgid "Padding & Margin"
+msgstr "Padding"
+
+#: class-lib/CLP_AdminClassWidget.php:1264
+msgid ""
+"To be able to use your own css it is important to know, what elements you "
+"actually can style in the login widget. In the list below you find all "
+"neccessary selectors for your style sheet."
+msgstr ""
+
+#: class-lib/CLP_AdminClassWidget.php:1557
+msgid "Testing Widget"
+msgstr ""
+
+#: class-lib/CLP_WidgetClass.php:20
+msgid "With this widget you can add a customized login form to your sidebar."
+msgstr ""
+
+#: class-lib/CLP_WidgetClass.php:91
+#, fuzzy
+msgid "Homepage"
+msgstr "Domovská stránka"
+
+#: class-lib/CLP_WidgetClass.php:92
+#, fuzzy
+msgid "Frontpage (e.g. a static page as homepage)"
+msgstr "FrontPage (napr statickú stránku ako domovskú stránku)"
+
+#: class-lib/CLP_WidgetClass.php:93
+#, fuzzy
+msgid "&#34;Page&#34; pages"
+msgstr "&amp;#34; stránky &amp;#34; stránok"
+
+#: class-lib/CLP_WidgetClass.php:94
+#, fuzzy
+msgid "Category pages"
+msgstr "Stránky kategórie"
+
+#: class-lib/CLP_WidgetClass.php:95
+#, fuzzy
+msgid "Single post pages"
+msgstr "Jediný príspevok stránky"
+
+#: class-lib/CLP_WidgetClass.php:96
+#, fuzzy
+msgid "Archive pages"
+msgstr "Archívne stránky"
+
+#: class-lib/CLP_WidgetClass.php:97
+#, fuzzy
+msgid "Tag pages"
+msgstr "Značku stránok"
+
+#: class-lib/CLP_WidgetClass.php:98
+#, fuzzy
+msgid "Attachments"
+msgstr "Prílohy"
+
+#: class-lib/CLP_WidgetClass.php:99
+#, fuzzy
+msgid "Custom Taxonomy pages (only available, if having a plugin)"
+msgstr "Vlastné stránky taxonómie (k dispozícii iba, ak s plugin)"
+
+#: class-lib/CLP_WidgetClass.php:100
+#, fuzzy
+msgid "Author pages"
+msgstr "Autor stránky"
+
+#: class-lib/CLP_WidgetClass.php:101
+#, fuzzy
+msgid "Search Results"
+msgstr "Výsledky hľadania"
+
+#: class-lib/CLP_WidgetClass.php:102
+#, fuzzy
+msgid "&#34;Not Found&#34;"
+msgstr "&#34; Nenašiel &#34;"
+
+#: class-lib/CLP_WidgetClass.php:105
+#, fuzzy
+msgid "Check all"
+msgstr "Začiarknuť všetky"
+
+#: class-lib/CLP_WidgetClass.php:107
+#, fuzzy
+msgid "Title:"
+msgstr "Názov:"
+
+#: class-lib/CLP_WidgetClass.php:108
+msgid "Don&#39;t show widget to logged in users."
+msgstr ""
+
+#: class-lib/CLP_WidgetClass.php:109
+#, fuzzy
+msgid ""
+"Check, where you want to show the widget. By default, it is showing on the "
+"homepage and the category pages:"
+msgstr ""
+"Začiarknite, ak chcete zobrazenie widget. Predvolene je zobrazené na "
+"domovskej stránky a stránky kategórií:"
+
+#: custom-login-page.php:190
+msgid "FAQ"
+msgstr "Telo"
+
+#: custom-login-page.php:191
+msgid "Donate"
+msgstr "Donate"
+
+#~ msgid "Logged Out Message"
+#~ msgstr "Prihlásený Out Message"
+
+#~ msgid "Error in Datatransfer."
+#~ msgstr "Chyba v datatransferu."
+
+#~ msgid "Saving..."
+#~ msgstr "Ukladanie ..."
+
+#~ msgid "Button"
+#~ msgstr "Button"
+
+#~ msgid "Save Changes"
+#~ msgstr "Uložiť zmeny"
+
+#~ msgid "Save style"
+#~ msgstr "Uložiť štýl"
+
+#~ msgid "choose a text decoration"
+#~ msgstr "vyberte textové dekorácie"
+
+#~ msgid "Hover Text Decoration"
+#~ msgstr "Hover Text Decoration"
+
+#~ msgid "The file will be named"
+#~ msgstr "Súbor bude mať názov"
+
+#~ msgid "A5 Custom Login Page"
+#~ msgstr "A5 Custom Login Page"
+
+#~ msgid ""
+#~ "Just customize your login page (or that of your community etc.) by giving "
+#~ "the WP login page a different look, with your own logo and special "
+#~ "colours and styles."
+#~ msgstr ""
+#~ "Stačí upraviť svoje prihlasovacie stránku (alebo že vaše komunity a pod) "
+#~ "tým, že WP prihlasovacia stránka odlišný vzhľad, s vlastným logom a "
+#~ "špeciálnych farieb a štýlov."
+
+#~ msgid "Waldemar Stoffel"
+#~ msgstr "Waldemar Stoffel"
+
+#~ msgid "http://www.waldemarstoffel.com"
+#~ msgstr "http://www.waldemarstoffel.com"

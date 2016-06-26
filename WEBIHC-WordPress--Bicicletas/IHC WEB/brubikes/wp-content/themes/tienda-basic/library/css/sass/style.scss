@@ -1,0 +1,24 @@
+/*!
+Theme Name: Tienda Basic
+Theme URI: http://themes.bavotasan.com/themes/tienda/
+Author: c.bavota
+Author URI: http://bavotasan.com/
+Description: Tienda Basic is an online storefront theme built specifically for WooCommerce. Set up a modern and beautifully designed eCommerce shop that works perfectly on handheld devices and desktops alike. With tons of great features and layout possibilities, Tienda will impress every customer while providing a smooth shopping experience. Also compatible with bbPress, BuddyPress and WPML. Uses Google Fonts for improved typeface readability.
+Version: 1.0.1
+Text Domain: tienda
+Domain Path: /library/languages/
+Tags: black, blue, gray, silver, white, light, one-column, two-columns, left-sidebar, right-sidebar, fluid-layout, responsive-layout, buddypress, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-image-header, featured-images, flexible-header, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Tienda Basic WordPress Theme, Copyright 2015 c.bavota
+Tienda Basic is distributed under the terms of the GNU GPL
+*/
+
+@import "compass/css3";
+
+@import "mixins";
+@import "bootstrap_3.3.4";
+@import "theme";
+@import "wp_new";
