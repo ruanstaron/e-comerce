@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>shipping_usps_title</key>
+      <value><![CDATA[Estados Unidos Postal Serviço (USPS)]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_description</key>
+      <value><![CDATA[Estados Unidos Postal Serviço<br /><br />Você vai precisar de ter registrado uma conta com a USPS http://www.uspsprioritymail.com/et_regcert.html usar este módulo<br /><br />USPS espera que você use libras como medida de peso para o seu produto.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+    <definition>
+      <key>shipping_usps_error</key>
+      <value><![CDATA[Ocorreu um erro com os cálculos de navegação USPS.<br />Se você preferir usar o USPS como seu método de envio, entre em contato com o proprietário da loja.]]></value>
+      <group>modules-shipping</group>
+    </definition>
+  </definitions>
+</language>

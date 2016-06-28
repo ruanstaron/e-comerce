@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_psigate_title</key>
+      <value><![CDATA[PSiGate]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_psigate_description</key>
+      <value><![CDATA[Infor. Teste do Cartão de Credito:<br /><br />CC#: 4111111111111111<br />Prazo de validade: Qualquer]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_psigate_credit_card_owner</key>
+      <value><![CDATA[Proprietário do cartão de crédito:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_psigate_credit_card_number</key>
+      <value><![CDATA[Número do Cartão:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_psigate_credit_card_expiry_date</key>
+      <value><![CDATA[Data do Vencimento do cartão de crédito:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_psigate_credit_card_type</key>
+      <value><![CDATA[Tipo:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_psigate_js_credit_card_number</key>
+      <value><![CDATA[* O número do cartão de crédito deve ser de pelo menos ' . CC_NUMBER_MIN_LENGTH . ' caracteres.n]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_psigate_error_message</key>
+      <value><![CDATA[Houve um erro ao processar seu cartão de crédito. Por favor, tente novamente.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_psigate_error</key>
+      <value><![CDATA[Erro no Cartão de Credito!]]></value>
+      <group>modules-payment</group>
+    </definition>
+  </definitions>
+</language>

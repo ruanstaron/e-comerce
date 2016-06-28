@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_eway_au_title</key>
+      <value><![CDATA[Pagamento eWay]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_eway_au_description</key>
+      <value><![CDATA[Pagamento eWay]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_eway_au_method_title</key>
+      <value><![CDATA[Pagamento eWay]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_eway_au_credit_card_owner</key>
+      <value><![CDATA[Proprietário do Cartão de Crédito:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_eway_au_credit_card_number</key>
+      <value><![CDATA[Número do cartão de crédito:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_eway_au_credit_card_expiry_date</key>
+      <value><![CDATA[Validade do Cartão de Crédito:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_eway_au_credit_card_cvv</key>
+      <value><![CDATA[Digito de Verificação:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_eway_eu_js_credit_card_owner</key>
+      <value><![CDATA[* O nome do proprietário  's do cartão de crédito deve ter pelo menos% s caracteres.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_eway_eu_js_credit_card_number</key>
+      <value><![CDATA[* O número do cartão de crédito deve ter pelo menos% s caracteres.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_eway_eu_cc_js_credit_card_cvc</key>
+      <value><![CDATA[* O número verificador do cartão (CVC) deve ser de pelo menos 3 caracteres.]]></value>
+      <group>modules-payment</group>
+    </definition>
+  </definitions>
+</language>

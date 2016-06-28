@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_western_union_title</key>
+      <value><![CDATA[Western Union]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_western_union_description</key>
+      <value><![CDATA[Western Union]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_western_union_method_title</key>
+      <value><![CDATA[Western Union]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_western_union_owner_country</key>
+      <value><![CDATA[País]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_western_union_owner_city</key>
+      <value><![CDATA[Cidade]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_western_union_owner_name</key>
+      <value><![CDATA[Nome:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_western_union_owner_email</key>
+      <value><![CDATA[E-mail:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_western_union_owner_telephone</key>
+      <value><![CDATA[Telefone:]]></value>
+      <group>modules-payment</group>
+    </definition>
+  </definitions>
+</language>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_ipayment_title</key>
+      <value><![CDATA[iPayment]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ipayment_description</key>
+      <value><![CDATA[Infor. Teste do Cartão de Crédito:<br /><br />CC#: 4111111111111111<br />Prazo de vencimento: Qualquer]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ipayment_error_heading</key>
+      <value><![CDATA[Houve um erro ao processar seu cartão de crédito]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ipayment_error_message</key>
+      <value><![CDATA[Por favor, verifique o seu cartão de crédito!]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ipayment_credit_card_owner</key>
+      <value><![CDATA[Proprietário do cartão de crédito:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ipayment_credit_card_number</key>
+      <value><![CDATA[Número do Cartão:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ipayment_credit_card_expiry_date</key>
+      <value><![CDATA[Data de vencimento do cartão de crédito:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ipayment_credit_card_checknumber</key>
+      <value><![CDATA[Verifique o número do cartão de crédito:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ipayment_credit_card_checknumber_location</key>
+      <value><![CDATA[(Localizado na parte de trás do cartão de crédito)]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ipayment_js_credit_card_owner</key>
+      <value><![CDATA[* O nome do proprietário do cartão de crédito deve ser de pelo menos caracteres.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ipayment_js_credit_card_number</key>
+      <value><![CDATA[* O número do cartão de crédito deve ser de pelo menos caracteres.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_ipayment_credit_card_type</key>
+      <value><![CDATA[Tipo de Cartão de crédito:]]></value>
+      <group>modules-payment</group>
+    </definition>
+  </definitions>
+</language>

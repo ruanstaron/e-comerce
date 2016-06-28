@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>order_total_gift_wrapping_title</key>
+      <value><![CDATA[Embrulhos]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>order_total_gift_wrapping_description</key>
+      <value><![CDATA[Embrulhos]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>gift_wrapping_heading</key>
+      <value><![CDATA[Embrulhos]]></value>
+      <group>modules-order_total</group>
+    </definition>
+    <definition>
+      <key>gift_wrapping_description</key>
+      <value><![CDATA[Por favor, marque a caixa de seleção para pedir que seu Produto (s) seja embrulhado para presente. O acréscimo deste serviço é de -s%.]]></value>
+      <group>modules-order_total</group>
+    </definition>
+  </definitions>
+</language>

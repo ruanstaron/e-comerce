@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_payquake_cc_title</key>
+      <value><![CDATA[Cartão de Crédito PayQuake]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_description</key>
+      <value><![CDATA[Operações do Cartão de Crédito]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_method_title</key>
+      <value><![CDATA[Cartão de Crédito]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_credit_card_owner</key>
+      <value><![CDATA[Proprietário do cartão de crédito:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_credit_card_number</key>
+      <value><![CDATA[Número do Cartão:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_credit_card_expiry_date</key>
+      <value><![CDATA[Data de validade do cartão de crédito:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_credit_card_cvc</key>
+      <value><![CDATA[Catão de Credito Check Numero (CVC):]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_js_credit_card_owner</key>
+      <value><![CDATA[* O nome do proprietário do cartão de crédito deve ser de pelo menos% s caracteres.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_js_credit_card_number</key>
+      <value><![CDATA[* O número do cartão de crédito deve ser de pelo menos% s caracteres.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_js_credit_card_not_accepted</key>
+      <value><![CDATA[* Este tipo de cartão de crédito não é aceite. Por favor, tente novamente com outro cartão ou o método de pagamento.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_js_credit_card_cvc</key>
+      <value><![CDATA[* O número de cheque, cartão de crédito (CVC) deve ser pelo menos 3 caracteres.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_error_general</key>
+      <value><![CDATA[Houve um problema ao processar o cartão de crédito. Por favor, verifique as informações do cartão e tente novamente.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_error_not_accepted</key>
+      <value><![CDATA[Este tipo de cartão de crédito não é aceite. Por favor, tente novamente com outro cartão ou o método de pagamento.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_error_invalid_expiry_date</key>
+      <value><![CDATA[A data de vencimento do cartão de crédito é inválido. Por favor, verifique as informações do cartão e tente novamente.]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_payquake_cc_error_expired</key>
+      <value><![CDATA[O cartão de crédito expirou. Por favor, tente novamente com outro cartão ou o método de pagamento.]]></value>
+      <group>modules-payment</group>
+    </definition>
+  </definitions>
+</language>

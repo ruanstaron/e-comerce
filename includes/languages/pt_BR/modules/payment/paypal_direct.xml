@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_paypal_direct_title</key>
+      <value><![CDATA[PayPal Site  (EUA) Pagamentos Diretos]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_direct_description</key>
+      <value><![CDATA[<b> Nota: PayPal exige o módulo de pagamento expresso para o pagamento ser ativado. Verifique se o módulo está ativado.</b><br /><br /><img src="images/icon_popup.gif" border="0">&nbsp;<a href="https://www.paypal.com/mrb/pal=PS2X9Q773CKG4" target="_blank" style="text-decoration: underline; font-weight: bold;">Visite o site da PayPal</a>&nbsp;<a href="javascript:toggleDivBlock(\'paypalDirectInfo\');">(info)</a><span id="paypalDirectInfo" style="display: none;"><br><i>Use o link acima para se cadastrar no PayPal e ofereça a seus clientes um meio de pagamento alternativo.</ i> </ span>]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_direct_method_title</key>
+      <value><![CDATA[Crédito ou Débito (processados ​​de forma segura através do PayPal)]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_direct_card_owner</key>
+      <value><![CDATA[Proprietário do Cartão:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_direct_card_type</key>
+      <value><![CDATA[Tipo de cartão:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_direct_card_number</key>
+      <value><![CDATA[Número do cartão:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_direct_card_valid_from</key>
+      <value><![CDATA[Cartão Válido a partir de:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_direct_card_valid_from_info</key>
+      <value><![CDATA[(se disponível)]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_direct_card_expires</key>
+      <value><![CDATA[Data de validade do cartão:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_direct_card_cvc</key>
+      <value><![CDATA[Código de Segurança do cartão]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_direct_card_issue_number</key>
+      <value><![CDATA[Número do cartão:]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_direct_card_issue_number_info</key>
+      <value><![CDATA[Para cartões master e solo apenas]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_paypal_direct_error_all_fields_required</key>
+      <value><![CDATA[Erro: Todos os campos de informações de pagamento são obrigatórios.]]></value>
+      <group>modules-payment</group>
+    </definition>
+  </definitions>
+</language>

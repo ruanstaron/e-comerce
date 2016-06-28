@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<language>
+  <definitions>
+    <definition>
+      <key>payment_gcheckout_title</key>
+      <value><![CDATA[Google Checkout]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_gcheckout_description</key>
+      <value><![CDATA[Google Checkout]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_gcheckout_method_title</key>
+      <value><![CDATA[Google Checkout]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_gcheckout_merchant_id</key>
+      <value><![CDATA[Usuário da conta do Google]]></value>
+      <group>modules-payment</group>
+    </definition>
+    <definition>
+      <key>payment_gcheckout_merchant_key</key>
+      <value><![CDATA[Senha da conta do Google]]></value>
+      <group>modules-payment</group>
+    </definition>
+  </definitions>
+</language>
